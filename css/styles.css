@@ -19,8 +19,8 @@ body{
 .header-logo{
     display: block;
     background-image: url("../img/logo.svg");
-    width: 176px;
-    height: 56px;
+    width: 170px;
+    height: 50px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,7 +28,8 @@ body{
     display: flex;
     list-style-type: none;
     padding-left: 0;
-    gap: 46px;
+    gap: 45px;
+    margin-right: 70px;
 }
 .header-nav a{
     font-weight: 600;
@@ -77,4 +78,47 @@ body{
     font-size: 15px;
     font-weight: 700;
 }
-
+.bg{
+    text-align: center;
+    color: #fff;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    padding: 142px 0;
+    background-position: center center;
+}
+.breadcrumbs{
+    padding: 0;
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.breadcrumbs a{
+    font-family: 'Open Sans', sans-serif;
+    color: #DEDEDE;
+    font-size: 15px;
+    text-decoration: none;
+}
+.breadcrumbs a::before{
+    content: "/";
+    position: relative;
+    left: -7px;
+}
+.breadcrumbs li:first-child a::before{
+    display: none;
+}
+.title{
+    font-size: 79px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #FAF9F9;
+    max-width: 320px;
+    margin: 0 auto;
+}
