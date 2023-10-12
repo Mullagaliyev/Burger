@@ -8,6 +8,9 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+header{
+    border-bottom: 1px solid #DEDEDE;
+}
 .header{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -19,8 +22,8 @@ body{
 .header-logo{
     display: block;
     background-image: url("../img/logo.svg");
-    width: 170px;
-    height: 50px;
+    width: 176px;
+    height: 56px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,13 +32,16 @@ body{
     list-style-type: none;
     padding-left: 0;
     gap: 45px;
-    margin-right: 70px;
+    margin-right: 26px;
 }
 .header-nav a{
     font-weight: 600;
     font-size: 20px;
     color: #443737;
     text-decoration: none;
+}
+.header-nav a:hover{
+    color: #FFC725;
 }
 .header-nav a::after{
     content: "";
@@ -55,6 +61,7 @@ body{
     border: none;
     padding: 0;
     gap: 10px;
+    cursor: pointer;
 }
 .button-item{
     position: relative;
@@ -100,10 +107,17 @@ body{
     font-size: 15px;
     text-decoration: none;
 }
+.breadcrumbs a:hover{
+    color: #FFC725;
+}
+.breadcrumbs a:hover::before{
+    color: #DEDEDE;
+}
 .breadcrumbs a::before{
     content: "/";
     position: relative;
     left: -7px;
+    pointer-events: none;
 }
 .breadcrumbs li:first-child a::before{
     display: none;
