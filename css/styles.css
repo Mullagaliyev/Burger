@@ -137,12 +137,16 @@ header{
     max-width: 320px;
     margin: 0 auto;
 }
+.banner{
+
+}
 .banner-box {
     background-image: url("../img/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 100px;
+    padding: 100px 100px 120px;
+    margin-bottom: 100px;
 }
 .banner-title{
     font-size: 60px;
@@ -181,5 +185,31 @@ header{
     color: #1E2F40;
     background-color: #FBB731;
 }
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title{
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 0;
+}
+.menu-select{
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 12.79px 7.75px;
+    background-position: 89% center;
+}
+
 
 
