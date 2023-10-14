@@ -19,6 +19,12 @@ header{
     padding-top: 26px;
     padding-bottom: 25px;
 }
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo{
     display: block;
     background-image: url("../img/logo.svg");
@@ -32,7 +38,7 @@ header{
     list-style-type: none;
     padding-left: 0;
     gap: 45px;
-    margin-right: 100px;
+
 }
 .header-nav a{
     font-weight: 600;
@@ -179,17 +185,24 @@ header{
 }
 .banner-link{
     font-size: 14px;
-    padding: 20px 27px;
+    padding: 18px 25px;
     text-transform: uppercase;
     text-decoration: none;
     color: #1E2F40;
     background-color: #FBB731;
+    border-radius: 5px;
+    border: 1px solid #FBB731;
+}
+.banner-link:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+
 }
 .menu-title{
     font-size: 44px;
@@ -251,14 +264,19 @@ header{
 
 .menu-grid-btn{
     display: flex;
-    border: none;
-    padding: 10px 32px;
+    border: 1px solid #FBB731;
+    padding: 8px 30px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
     background-color: #FBB731;
     border-radius: 5px;
+
+}
+.menu-grid-btn:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-grid-icon{
     background-image: url("../img/menu/cart-menu.svg");
@@ -275,7 +293,7 @@ header{
     background: #1E2F48;
     color: #FFF;
     padding-top: 117px;
-    padding-bottom: 106px;
+    padding-bottom: 105px;
     margin-top: 140px;
 }
 .footer-box{
@@ -297,15 +315,15 @@ header{
     margin-top: 0;
 
 }
-.footer-item li {
+.footer-list li {
     margin-bottom: 9px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #FAF9F9;
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
@@ -316,19 +334,28 @@ header{
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul {
+.footer-list-tel{
+    margin-top: 0;
+}
+.footer-list-tel a{
     font-size: 20px;
     color: #FBB731;
     margin-top: 0;
     font-weight: 900;
 }
-.footer-tel li {
+.footer-list-tel li {
     margin-bottom: 12px;
     list-style-type: none;
 }
 .footer-list{
     padding-left: 0;
     list-style-type: none;
+}
+.footer-list li a:hover{
+    color: #DEDEDE;
+}
+.footer-list a:hover{
+    color: #FBB731;
 }
 
 
