@@ -293,11 +293,9 @@ header{
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 12px;
-}
-.footer-item ul,
-.footer-tel ul {
-    list-style-type: none;
+    margin-bottom: 19px;
+    margin-top: 0;
+
 }
 .footer-item li {
     margin-bottom: 9px;
@@ -321,9 +319,16 @@ header{
 .footer-tel ul {
     font-size: 20px;
     color: #FBB731;
+    margin-top: 0;
+    font-weight: 900;
 }
 .footer-tel li {
     margin-bottom: 12px;
+    list-style-type: none;
+}
+.footer-list{
+    padding-left: 0;
+    list-style-type: none;
 }
 
 
