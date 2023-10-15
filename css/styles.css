@@ -351,7 +351,7 @@ header{
     padding-left: 0;
     list-style-type: none;
 }
-.footer-list li a:hover{
+.footer-list-active li a:hover{
     color: #DEDEDE;
 }
 .footer-list a:hover{
