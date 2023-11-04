@@ -631,7 +631,7 @@ header{
         gap: 21px;
     }
 }
-@media (min-width: 567px) {
+@media (max-width: 567px) {
     .title {
         font-size: 38px;
         font-weight: 700;
